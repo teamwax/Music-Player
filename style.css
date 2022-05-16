@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+*{
+    margin: 0;
+    padding: 0;  
+    outline: 0; 
+} 
+body{
+    background-color: #a8899b; 
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 6px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: #90a889;
+    box-shadow: 5px 5px 11px #6892cd , -5px -5px 11px  #fff  ;
+    text-align: center;
+    font-family: 'Koulen', sans-serif;
+}
+
+.container h1{
+    font-size: 1.5rem;
+    margin: 12px 0;
+} 
+
+.container img{
+    width: 80%;
+    margin-bottom: 12px;
+}
+
+.level{
+    width: 80%;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #E1E6EC; 
+    box-shadow: 5px 5px 11px #A2B1C6 , -5px -5px 11px  #fff  ;
+    border-radius: 25px;
+    margin-bottom: 12px;
+}
+
+.level::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #A2B1C6;
+    box-shadow: 2px 2px 5px #A2B1C6 , -2px -2px 5px  #fff  ;
+    width: 15px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    border-radius: 90px;
+}
+
+
+.buttons{
+    display: inline-block;
+    margin: 0;
+}
+.buttons button{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+    background-color: #E1E6EC;
+    box-shadow: 2px 2px 5px #A2B1C6 , -2px -2px 11px  #fff  ;
+    border: none;
+}
+
+.buttons button:active{
+    background-color: #E1E6EC;
+    box-shadow: inset 2px 2px 5px #A2B1C6 , -2px -2px 11px  #fff  ;
+}
+
+
+#play{
+    margin: 0 16px;
+}
+
+.buttons button img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+
